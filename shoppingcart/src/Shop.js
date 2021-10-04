@@ -1,12 +1,18 @@
 const Shop = () => {
   return (
     <>
-    <nav>
-    <a href='/'>link to home</a>
-    </nav>
-    <div>
-
-    </div>
+      <header>
+        <nav className="wrapper">
+          <ul>
+            <li><a href='/'>link to home</a></li>
+            <li><a href='/'>link to home</a></li>
+            <li><a href='/'>link to home</a></li>
+          </ul>
+        </nav>
+        <hr/>
+      </header>
+      <div>
+      </div>
     </>
   )
 }
